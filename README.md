@@ -71,7 +71,7 @@ Coverage report. Lines and branches are at 100 percent. The function figure is l
 
 ![Coverage report](docs/coverage.png)
 
-![CI run](docs/ci-green.PNG)
+![CI run](docs/ci-green.png).
 
 ## Build and test
 
