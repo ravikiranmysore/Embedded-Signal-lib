@@ -61,6 +61,18 @@ Every push runs these in GitHub Actions.
 | Static analysis | clang-tidy and cppcheck |
 | Code style | clang-format |
 
+## Results
+
+Unit tests, all passing:
+
+![Unit test output](docs/tests.png)
+
+Coverage report. Lines and branches are at 100 percent. The function figure is lower because gcovr counts each template instantiation as its own function. It is not untested code.
+
+![Coverage report](docs/coverage.png)
+
+![CI run](docs/ci-green.PNG)
+
 ## Build and test
 
 You need a C++17 compiler, CMake 3.21 or newer and Ninja.
